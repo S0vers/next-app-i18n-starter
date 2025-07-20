@@ -36,8 +36,8 @@
     "githubLink": "GitHub"
   },
   "Metadata": {
-    "title": "قالب Next.js للتدويل - نقطة بدء متعددة اللغات",
-    "description": "قالب Next.js للتدويل (i18n) مع دعم العربية، الصينية، الإنجليزية، الإسبانية، واليابانية. يتضمن واجهة shadcn، تبديل السمات ودعم RTL.",
-    "keywords": "Next.js, i18n, تدويل, عربي, صيني, إنجليزي, إسباني, ياباني, متعدد اللغات, قالب, واجهة shadcn, دعم RTL"
+    "title": "Next.js 15 قالب i18n - بداية متعددة اللغات مع TypeScript و Tailwind",
+    "description": "قالب بداية احترافي لـ Next.js 15 للتدويل مع TypeScript و Tailwind CSS و shadcn/ui. يتميز بدعم العربية RTL و 5 لغات وأفضل ممارسات التطوير الحديثة للتطبيقات متعددة اللغات.",
+    "keywords": "Next.js 15, التدويل, i18n, متعدد اللغات, TypeScript, Tailwind CSS, shadcn/ui, العربية RTL, React, قالب Next.js, مجموعة البدء, تطوير الويب, محسن لمحركات البحث, واجهة مستخدم حديثة, تصميم متجاوب"
   }
 }

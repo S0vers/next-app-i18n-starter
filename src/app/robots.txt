@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
+Crawl-delay: 1
+
+# Block admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow specific important paths
+Allow: /api/og*
 
 Sitemap: https://next-app-i18n-starter.vercel.app/sitemap.xml
