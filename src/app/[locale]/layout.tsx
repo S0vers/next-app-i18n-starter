@@ -6,12 +6,12 @@ import { ReactNode } from "react";
 import { WebSite, WithContext } from "schema-dts";
 import { jsonLdScriptProps } from "react-schemaorg";
 import { Metadata } from "next";
-import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 
-import { locales } from "@/i18n/config";
+import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +30,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as any)) {
     notFound();
   }
 
